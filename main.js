@@ -11,7 +11,7 @@ function clearCanvas(){
 }
 
 function preload(){
-  classifier=ml5.Imageclassifier("DoodleNet");
+  classifier=ml5.imageClassifier("DoodleNet");
 
 }
 
